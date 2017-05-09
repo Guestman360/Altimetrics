@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040739981E47E58100D1AAE4 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040739971E47E58100D1AAE4 /* CurrentWeather.swift */; };
+		0407399A1E47EA5600D1AAE4 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040739991E47EA5600D1AAE4 /* Location.swift */; };
+		047097C81E4D3DA300EF5C8A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047097C71E4D3DA300EF5C8A /* SettingsView.swift */; };
+		04999ACD1E4988AA007904A1 /* UserMapLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04999ACC1E4988AA007904A1 /* UserMapLocation.swift */; };
 		04F92AB01E46E2AA0078E154 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F92AAF1E46E2AA0078E154 /* AppDelegate.swift */; };
 		04F92AB21E46E2AA0078E154 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F92AB11E46E2AA0078E154 /* ViewController.swift */; };
 		04F92AB51E46E2AA0078E154 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F92AB31E46E2AA0078E154 /* Main.storyboard */; };
 		04F92AB71E46E2AA0078E154 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F92AB61E46E2AA0078E154 /* Assets.xcassets */; };
 		04F92ABA1E46E2AA0078E154 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F92AB81E46E2AA0078E154 /* LaunchScreen.storyboard */; };
+		04F92AC21E46E3CD0078E154 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F92AC11E46E3CD0078E154 /* Constants.swift */; };
+		7A6C3021CE2CE8F79A138B33 /* Pods_Altimetrics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7E91E4DC0E984CE018D8797 /* Pods_Altimetrics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		040739971E47E58100D1AAE4 /* CurrentWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
+		040739991E47EA5600D1AAE4 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		047097C71E4D3DA300EF5C8A /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		04999ACC1E4988AA007904A1 /* UserMapLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserMapLocation.swift; sourceTree = "<group>"; };
 		04F92AAC1E46E2AA0078E154 /* Altimetrics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Altimetrics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F92AAF1E46E2AA0078E154 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04F92AB11E46E2AA0078E154 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,10 @@
 		04F92AB61E46E2AA0078E154 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04F92AB91E46E2AA0078E154 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04F92ABB1E46E2AA0078E154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F92AC11E46E3CD0078E154 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		343754AE71BD97AD5AE4B7DE /* Pods-Altimetrics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Altimetrics.release.xcconfig"; path = "Pods/Target Support Files/Pods-Altimetrics/Pods-Altimetrics.release.xcconfig"; sourceTree = "<group>"; };
+		A7E91E4DC0E984CE018D8797 /* Pods_Altimetrics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Altimetrics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9034869B4F3B740A4853185 /* Pods-Altimetrics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Altimetrics.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Altimetrics/Pods-Altimetrics.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A6C3021CE2CE8F79A138B33 /* Pods_Altimetrics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +55,8 @@
 			children = (
 				04F92AAE1E46E2AA0078E154 /* Altimetrics */,
 				04F92AAD1E46E2AA0078E154 /* Products */,
+				95CEE3A04E51D90FB75FA008 /* Pods */,
+				18E9321F40BBEBE0C9BFCB86 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +77,30 @@
 				04F92AB61E46E2AA0078E154 /* Assets.xcassets */,
 				04F92AB81E46E2AA0078E154 /* LaunchScreen.storyboard */,
 				04F92ABB1E46E2AA0078E154 /* Info.plist */,
+				04F92AC11E46E3CD0078E154 /* Constants.swift */,
+				040739971E47E58100D1AAE4 /* CurrentWeather.swift */,
+				040739991E47EA5600D1AAE4 /* Location.swift */,
+				04999ACC1E4988AA007904A1 /* UserMapLocation.swift */,
+				047097C71E4D3DA300EF5C8A /* SettingsView.swift */,
 			);
 			path = Altimetrics;
+			sourceTree = "<group>";
+		};
+		18E9321F40BBEBE0C9BFCB86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7E91E4DC0E984CE018D8797 /* Pods_Altimetrics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95CEE3A04E51D90FB75FA008 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9034869B4F3B740A4853185 /* Pods-Altimetrics.debug.xcconfig */,
+				343754AE71BD97AD5AE4B7DE /* Pods-Altimetrics.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04F92ABE1E46E2AA0078E154 /* Build configuration list for PBXNativeTarget "Altimetrics" */;
 			buildPhases = (
+				CC474DA187F080CE1E291314 /* [CP] Check Pods Manifest.lock */,
 				04F92AA81E46E2AA0078E154 /* Sources */,
 				04F92AA91E46E2AA0078E154 /* Frameworks */,
 				04F92AAA1E46E2AA0078E154 /* Resources */,
+				906DB32A3D9D93E1EE621060 /* [CP] Embed Pods Frameworks */,
+				C3BF864A6286B6032412A05B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +138,7 @@
 				TargetAttributes = {
 					04F92AAB1E46E2AA0078E154 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = YQ9GWYBA6Y;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -131,12 +174,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		906DB32A3D9D93E1EE621060 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Altimetrics/Pods-Altimetrics-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3BF864A6286B6032412A05B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Altimetrics/Pods-Altimetrics-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC474DA187F080CE1E291314 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04F92AA81E46E2AA0078E154 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				047097C81E4D3DA300EF5C8A /* SettingsView.swift in Sources */,
 				04F92AB21E46E2AA0078E154 /* ViewController.swift in Sources */,
+				04F92AC21E46E3CD0078E154 /* Constants.swift in Sources */,
+				0407399A1E47EA5600D1AAE4 /* Location.swift in Sources */,
+				040739981E47E58100D1AAE4 /* CurrentWeather.swift in Sources */,
+				04999ACD1E4988AA007904A1 /* UserMapLocation.swift in Sources */,
 				04F92AB01E46E2AA0078E154 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -181,10 +277,11 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos10.0]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -230,10 +327,11 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos10.0]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -256,25 +354,33 @@
 		};
 		04F92ABF1E46E2AA0078E154 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9034869B4F3B740A4853185 /* Pods-Altimetrics.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YQ9GWYBA6Y;
 				INFOPLIST_FILE = Altimetrics/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = MGApps.Altimetrics;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MattGuestApps.Altimetrics;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		04F92AC01E46E2AA0078E154 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 343754AE71BD97AD5AE4B7DE /* Pods-Altimetrics.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YQ9GWYBA6Y;
 				INFOPLIST_FILE = Altimetrics/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = MGApps.Altimetrics;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MattGuestApps.Altimetrics;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -297,6 +403,7 @@
 				04F92AC01E46E2AA0078E154 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,6 @@
+framework module Pods_Altimetrics {
+  umbrella header "Pods-Altimetrics-umbrella.h"
+
+  export *
+  module * { export * }
+}
